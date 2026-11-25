@@ -1,0 +1,8 @@
+application: MediVault
+data_classification: highly_sensitive_synthetic_health_records
+data_retention_years: 15
+transport: TLSv1.2
+key_exchange: ECDHE
+certificate_signature: ECDSA
+at_rest_cipher: AES-256-GCM
+backup_key_type: RSA-3072
